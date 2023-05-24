@@ -1,18 +1,30 @@
 body {
-
   font-family: "Montserrat";
   text-align: center;
 }
 
-
-
-
-
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #91c6e5;
   color: #fff;
 }
 
 .white-section {
   background-color: #fff;
+}
+
+.icon {
+  color: #91c6e5;
+  margin-bottom: 1rem;
+}
+
+.testimonial-text {
+font-size: 3rem;
+line-height: 1.5;
+}
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }

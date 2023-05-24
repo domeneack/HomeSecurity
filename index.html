@@ -39,38 +39,103 @@
 
       <!-- Nav Bar -->
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
-
-        <a class="navbar-brand" href="/">Provision One Security</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleDemo01"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Provision One</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
 
-     <div class="row">
-      <div class="col-lg-6">
-        <h1 class="big-heading">Bring your home to life.</h1>
-        
-      </div>
+      <!-- Title -->
 
-      <div class="col-lg-6">
-        <img class="title-image" src="Smart_homes.jpeg" alt="smart-home">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Bring your home to life.</h1>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="Smart_homes.jpeg" alt="smart-home">
+        </div>
       </div>
-     </div>
     </div>
   </section>
 
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-circle-check fa-4x"></i>
+          <h3 class="feature-title">Enhanced Convenience</h3>
+          <p>Have control of your home from anywhere.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Guaranteed Comfort.</h3>
+          <p>Easily manage appliances through voice commands or smartphone apps.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-shield-halved fa-4x"></i>
+          <h3 class="feature-title">Optimum Security</h3>
+          <p>Provides homeowners with peace of mind</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Provision One is the best!
+          </h2>
+          <img class="testimonial-image" src="niceGuy.jpeg" alt="client-profile">
+          <em>Great guy, California</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Technology has never been easy for me, but with help from Provision One I have
+            the smart home I've always wanted.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
 </body>
 
 </html>
