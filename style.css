@@ -3,6 +3,28 @@ body {
   text-align: center;
 }
 
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
 .colored-section {
   background-color: #91c6e5;
   color: #fff;
@@ -12,16 +34,52 @@ body {
   background-color: #fff;
 }
 
+/* Navigation Bar */
+
+.navbar {
+  text-align: left;
+  margin-left: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 20px 15px;
+  text-align: left;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 100%;
+  position: relative;
+  margin-right: 300px;
+}
+
 .icon {
   color: #91c6e5;
   margin-bottom: 1rem;
 }
 
 .testimonial-text {
-font-size: 3rem;
-line-height: 1.5;
+  font-size: 3rem;
+  line-height: 1.5;
 }
-
 
 .testimonial-image {
   width: 10%;
